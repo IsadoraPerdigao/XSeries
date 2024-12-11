@@ -35,3 +35,9 @@
     bottom: 18px;
     left: 604px;
 }
+
+.detail {
+    position: absolute;
+    bottom: 73px;
+    right: 100px;
+}

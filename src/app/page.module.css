@@ -5,10 +5,10 @@
 }
 
 .main {
+  padding: 24px 540px 100px 100px;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  color: aliceblue;
 }
 
 

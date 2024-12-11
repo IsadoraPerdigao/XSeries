@@ -14,7 +14,7 @@ export const Hero = () => {
                 </div>
             </div>
             <Image src={ImageSelector} alt="Menu to check next photo" className={styles.menu}/>
-            <Image src={DetailImage} alt="Smaller house picture"/>
+            <Image src={DetailImage} alt="Smaller house picture" className={styles.detail}/>
         </div>
     )
 }
