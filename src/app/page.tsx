@@ -8,6 +8,7 @@ import { Reviews } from "./components/reviews";
 import { AboutIconsList } from "./components/aboutIconsList";
 import { About } from "./components/about";
 import { Amenities } from "./components/amenities";
+import { Meals } from "./components/meals";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutIconsList />
         <About />
         <Amenities />
+        <Meals /> 
       </main>
     </div>
   );
