@@ -12,6 +12,7 @@
 }
 
 .main {
+  height: 100%;
   padding: 24px 540px 100px 100px;
   display: flex;
   flex-direction: column;

@@ -9,6 +9,7 @@ import { AboutIconsList } from "./components/aboutIconsList";
 import { About } from "./components/about";
 import { Amenities } from "./components/amenities";
 import { Meals } from "./components/meals";
+import { PhotosList } from "./components/photosList";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <Amenities />
         <Meals /> 
+        <PhotosList />
       </main>
     </div>
   );
