@@ -11,6 +11,7 @@ import { Amenities } from "./components/amenities";
 import { Meals } from "./components/meals";
 import { PhotosList } from "./components/photosList";
 import { Location } from "./components/location";
+import { Footer } from "./components/footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <PhotosList />
         <Location />
       </main>
+      <Footer />
     </div>
   );
 }
