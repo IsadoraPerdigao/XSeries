@@ -6,6 +6,7 @@ import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Reviews } from "./components/reviews";
 import { AboutIconsList } from "./components/aboutIconsList";
+import { About } from "./components/about";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Reviews />
         <AboutIconsList />
+        <About />
       </main>
     </div>
   );
