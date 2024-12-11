@@ -7,7 +7,7 @@ import { Button } from "./button"
 
 export const Location = () => {
     return (
-        <div>
+        <div className={styles.locationContainer}>
             <h1>Location</h1>
             <Image src={map} alt="Map" className={styles.map}/>
             <Button text="Get Direction" disabled={false} bgColor="buttonTransparent" />

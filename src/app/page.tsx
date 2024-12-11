@@ -9,9 +9,11 @@ import { AboutIconsList } from "./components/aboutIconsList";
 import { About } from "./components/about";
 import { Amenities } from "./components/amenities";
 import { Meals } from "./components/meals";
-import { PhotosList } from "./components/photosList";
+import { List } from "./components/list";
 import { Location } from "./components/location";
 import { Footer } from "./components/footer";
+import { HouseDetailsCard } from "./components/houseDetailsCard";
+import { PhotoCard } from "./components/photoCard";
 
 export default function Home() {
   return (
@@ -24,8 +26,17 @@ export default function Home() {
         <About />
         <Amenities />
         <Meals /> 
-        <PhotosList />
+        <List text="Real Moments">
+          <PhotoCard />
+          <PhotoCard />
+          <PhotoCard />
+        </List>
         <Location />
+        <List text="Rooms and Beds">
+          <HouseDetailsCard />
+          <HouseDetailsCard />
+          <HouseDetailsCard />
+        </List>
       </main>
       <Footer />
     </div>
