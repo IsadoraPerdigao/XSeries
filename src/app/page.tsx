@@ -5,6 +5,7 @@ import { Button } from "./components/button";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Reviews } from "./components/reviews";
+import { AboutIconsList } from "./components/aboutIconsList";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <main className={styles.main}>
         <Reviews />
+        <AboutIconsList />
       </main>
     </div>
   );
