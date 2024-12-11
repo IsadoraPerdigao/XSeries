@@ -14,6 +14,7 @@ import { Location } from "./components/location";
 import { Footer } from "./components/footer";
 import { HouseDetailsCard } from "./components/houseDetailsCard";
 import { PhotoCard } from "./components/photoCard";
+import { Form } from "./components/form";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Header />
       <Hero />
       <main className={styles.main}>
+        <Form />
         <Reviews />
         <AboutIconsList />
         <About />

@@ -1,7 +1,12 @@
 .page {
+  position: relative;
   background-color: black;
   min-height: 100vh;
+  height: 100%;
+  width: 100%;
   font-family: var(--font-geist-sans);
+  display: flex;
+  flex-direction: column;
 }
 
 .page h1 {
@@ -12,6 +17,7 @@
 }
 
 .main {
+  position: relative;
   height: 100%;
   width: 50%;
   padding: 24px;
