@@ -4,6 +4,13 @@
   font-family: var(--font-geist-sans);
 }
 
+.page h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(242, 242, 242, 1);
+}
+
 .main {
   padding: 24px 540px 100px 100px;
   display: flex;

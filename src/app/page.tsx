@@ -7,6 +7,7 @@ import { Hero } from "./components/hero";
 import { Reviews } from "./components/reviews";
 import { AboutIconsList } from "./components/aboutIconsList";
 import { About } from "./components/about";
+import { Amenities } from "./components/amenities";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Reviews />
         <AboutIconsList />
         <About />
+        <Amenities />
       </main>
     </div>
   );
