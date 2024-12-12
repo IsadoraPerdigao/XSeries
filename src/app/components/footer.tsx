@@ -3,7 +3,7 @@ import Image from "next/image"
 import copyRight from "../../assets/CopyRight.svg"
 import extendedLogo from "../../assets/Extended-logo.svg"
 import socialMedia from "../../assets/Social-media.svg"
-import { Inter, Lora } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
 const inter = Inter({
     subsets: ['latin'],

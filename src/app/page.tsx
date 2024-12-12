@@ -1,7 +1,6 @@
 'use client'
 
 import styles from "./page.module.css";
-import { Lora } from 'next/font/google';
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Reviews } from "./components/reviews";
