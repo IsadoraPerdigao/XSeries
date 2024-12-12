@@ -1,7 +1,7 @@
 'use client'
 
 import styles from "./page.module.css";
-import { Button } from "./components/button";
+import { Lora } from 'next/font/google';
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { Reviews } from "./components/reviews";
@@ -15,14 +15,16 @@ import { Footer } from "./components/footer";
 import { HouseDetailsCard } from "./components/houseDetailsCard";
 import { PhotoCard } from "./components/photoCard";
 import { Form } from "./components/form";
+import { ResponsiveForm } from "./components/responsiveForm";
+
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page}`}>
       <Header />
+      <Form />
       <Hero />
       <main className={styles.main}>
-        <Form />
         <Reviews />
         <AboutIconsList />
         <About />
@@ -41,6 +43,7 @@ export default function Home() {
         </List>
       </main>
       <Footer />
+      <ResponsiveForm />
     </div>
   );
 }

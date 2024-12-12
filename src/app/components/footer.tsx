@@ -1,11 +1,20 @@
 import styles from "../styles/footer.module.css"
 import Image from "next/image"
 import copyRight from "../../assets/CopyRight.svg"
+import extendedLogo from "../../assets/Extended-logo.svg"
+import socialMedia from "../../assets/Social-media.svg"
+import { Inter, Lora } from 'next/font/google';
+
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600'],
+});
 
 export const Footer = () => {
     return (
         <div>
-            <div className={styles.footerContainer}>
+            <div className={`${styles.footerContainer} ${inter.className}`}>
+                <Image src={extendedLogo} alt="Logo with slogan" className={styles.logo} />
                 <div>
                     <h2>Company</h2>
                     <p>SaffronStays</p>
@@ -41,6 +50,7 @@ export const Footer = () => {
             </div>
             <div className={styles.secondFooter}>
                 <Image src={copyRight} alt="Copy Rigth Icon" />
+                <Image src={socialMedia} alt="Social media icons list" className={styles.socialMedia} />
                 <div className={styles.circleContainer}>
                     <div className={styles.circle}></div>
                     <div className={styles.circle}></div>

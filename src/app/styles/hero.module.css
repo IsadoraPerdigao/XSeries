@@ -41,3 +41,27 @@
     bottom: 73px;
     right: 100px;
 }
+
+@media (max-width: 1024px) {
+    .title {
+        left: 30px;
+    }
+
+    .detail {
+        bottom: 65px;
+        right: 25px;
+        width: 72px;
+    }
+
+    .menu {
+        right: 400px;
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu {
+        right: 50px;
+    }
+}

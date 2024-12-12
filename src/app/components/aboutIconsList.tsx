@@ -5,11 +5,17 @@ import house from "../../assets/House.svg"
 import people from "../../assets/Group.svg"
 import bed from "../../assets/Bed 2.svg"
 import paw from "../../assets/Paw.svg"
+import { Inter } from 'next/font/google';
+
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600'],
+});
 
 export const AboutIconsList = () => {
     return (
-        <ol className={styles.iconsContainer}>
-            <li className={styles.iconDiv}>
+        <ol className={`${styles.iconsContainer} ${inter.className}`}>
+            <li className={`${styles.iconDiv} ${inter.className}`}>
                 <Image src={house} alt="House Icon" />
                 <span>Entire Villa</span>
             </li>

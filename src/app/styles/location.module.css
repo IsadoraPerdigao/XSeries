@@ -8,3 +8,10 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 1024px) {
+    .map {
+        margin: 10px 0px;
+        height: fit-content;
+    }
+}

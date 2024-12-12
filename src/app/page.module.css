@@ -4,12 +4,11 @@
   min-height: 100vh;
   height: 100%;
   width: 100%;
-  font-family: var(--font-geist-sans);
   display: flex;
   flex-direction: column;
 }
 
-.page h1 {
+.page h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -27,19 +26,16 @@
 }
 
 
-@media (max-width: 600px) {
-  .page {
-    padding: 32px;
-    padding-bottom: 80px;
-  }
-
+@media (max-width: 1024px) {
   .main {
-    align-items: center;
+    width: 100%;
+    padding: 0px 16px;
+  }
+
+  .page h2 {
+    font-size: 18px;
+    line-height: 27px;
+    gap: 28px;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-}

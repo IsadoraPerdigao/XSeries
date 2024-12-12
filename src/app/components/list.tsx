@@ -1,7 +1,12 @@
 'use client'
 
 import styles from "../styles/list.module.css"
-import { PhotoCard } from "./photoCard"
+import { Lora } from 'next/font/google';
+
+const lora = Lora({
+    subsets: ['latin'],
+    weight: ['600', '500', '400'],
+});
 
 interface ListProps {
     children: React.ReactNode;
@@ -11,7 +16,7 @@ interface ListProps {
 export const List = ({text, children}: ListProps) => {
     return (
         <div>
-            <h1>{text}</h1>
+            <h2 className={lora.className}>{text}</h2>
             <ul className={styles.listContainer}>
                 {children}
             </ul>

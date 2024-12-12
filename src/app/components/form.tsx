@@ -2,10 +2,16 @@
 
 import styles from "../styles/form.module.css"
 import { Button } from "./button"
+import { Inter } from 'next/font/google';
+
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600'],
+});
 
 export const Form = () => {
     return (
-        <form className={styles.formContainer}>
+        <form className={`${styles.formContainer} ${inter.className}`}>
             <div className={styles.formTitle}>
                 <span>₹1,49,086</span>
                 <h2>₹1,00,086/Night</h2>

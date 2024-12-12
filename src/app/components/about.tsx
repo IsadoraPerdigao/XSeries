@@ -1,13 +1,26 @@
+'use client'
+
 import styles from "../styles/about.module.css"
 import { Button } from "./button"
+import { Inter, Lora } from 'next/font/google';
+
+const inter = Inter({
+    subsets: ['latin'],
+    weight: ['400', '500', '600'],
+});
+
+const lora = Lora({
+    subsets: ['latin'],
+    weight: ['600', '500', '400'],
+});
 
 export const About = () => {
     return (
         <div className={styles.aboutContainer}>
-            <div className={styles.textContainer}>
-                <h1>
+            <div className={`${styles.textContainer} ${inter.className}`}>
+                <h2 className={`${lora.className}`}>
                     About
-                </h1>
+                </h2>
                 <ol>
                     <li>
                         Tucked away cosily in the lap of nature, this is the perfect destination getaway for a vacation trip near Delhi and Chandigarh.

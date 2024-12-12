@@ -4,6 +4,8 @@ import { Button } from "./button"
 import Logo from "../../assets/Logo.svg"
 import Logo2 from "../../assets/Logo2.svg"
 import Tel from "../../assets/Tel.svg"
+import LogoIcon from "../../assets/Logo-icon.svg"
+import Forget from "../../assets/Forget.svg"
 
 export const Header = () => {
     return (
@@ -17,6 +19,9 @@ export const Header = () => {
                 <Image src={Tel} alt="Contact number"/>
                 <Button text="Login" disabled={false} />
             </div>
+            <Image src={LogoIcon} alt="Golden logo icon" className={styles.image} />
+            <Image src={Forget} alt="Forget icon" height={24} width={24} className={styles.image} />
+
         </header>
     )
 }

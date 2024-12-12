@@ -8,9 +8,10 @@
     flex-direction: column;
     gap: 20px;
     padding: 24px;
-    position: fixed;
-    top: 15%;
-    left: 55%;
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    z-index: 1;
 }
 
 .formTitle {
@@ -73,4 +74,10 @@
     padding-left: 27px;
     background-color: transparent;
     color: rgba(153, 153, 153, 1);
+}
+
+@media (max-width: 1024px) {
+    .formContainer {
+        display: none;
+    }
 }

@@ -19,3 +19,13 @@
     align-items: center;
     color: rgba(136, 136, 136, 1);
 }
+
+@media (max-width: 1024px) {
+    .listItem {
+        font-size: 14px;
+    }
+
+    .amenitiesContainer {
+        width: 100%;
+    }
+}

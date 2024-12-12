@@ -16,3 +16,15 @@
     line-height: 21px;
     color: rgba(187, 187, 187, 1);
 }
+
+@media (max-width: 1024px) {
+    .iconsContainer {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .iconDiv {
+        font-size: 10px;
+        line-height: 15px;
+    }
+}
